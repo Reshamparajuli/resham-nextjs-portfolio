@@ -1,9 +1,12 @@
 # dependencies
 /node_modules
+/resham-nextjs-portfolio/node_modules
 
 # Next.js
 /.next
+/resham-nextjs-portfolio/.next
 /out
+/resham-nextjs-portfolio/out
 
 # production
 /build
