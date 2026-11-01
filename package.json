@@ -1,0 +1,25 @@
+{
+  "name": "resham-nextjs-portfolio-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix resham-nextjs-portfolio run dev",
+    "build": "npm --prefix resham-nextjs-portfolio run build",
+    "vercel-build": "npm run build",
+    "start": "npm --prefix resham-nextjs-portfolio run start",
+    "lint": "npm --prefix resham-nextjs-portfolio run lint"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.0",
+    "typescript": "^5.7.0"
+  }
+}
