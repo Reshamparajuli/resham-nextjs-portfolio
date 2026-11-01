@@ -2,13 +2,13 @@ import Image from "next/image";
 import { ArrowDownRight, ArrowUpRight, Smartphone, Layers3, Workflow, Github, ExternalLink, Sparkles } from "lucide-react";
 
 const shots = [
- {src:"/projects/nepshorts/01-news-feed.webp",title:"NepShorts news feed",note:"News experience"},
- {src:"/projects/nepshorts/02-dark-news-feed.webp",title:"Dark news feed",note:"Dark mode"},
- {src:"/projects/nepshorts/03-onboarding.webp",title:"Onboarding screens",note:"First-time experience"},
- {src:"/projects/nepshorts/04-features-showcase.webp",title:"App features",note:"Product overview"},
- {src:"/projects/nepshorts/05-people-list.webp",title:"Paisa Lenden people list",note:"People and balances"},
- {src:"/projects/nepshorts/06-people-directory.webp",title:"Paisa Lenden directory",note:"Contact management"},
- {src:"/projects/nepshorts/07-lenden-screens.webp",title:"Paisa Lenden screens",note:"Lending and repayments"}
+ {src:"/projects/nepshorts/IMG_1466.jpg",title:"NepShorts screen 1",note:"Mobile interface"},
+ {src:"/projects/nepshorts/IMG_1467.jpg",title:"NepShorts screen 2",note:"Mobile interface"},
+ {src:"/projects/nepshorts/IMG_1480.jpg",title:"NepShorts screen 3",note:"Mobile interface"},
+ {src:"/projects/nepshorts/IMG_1481.jpg",title:"NepShorts screen 4",note:"Mobile interface"},
+ {src:"/projects/nepshorts/IMG_1483.jpg",title:"NepShorts screen 5",note:"Mobile interface"},
+ {src:"/projects/nepshorts/IMG_1484.jpg",title:"NepShorts screen 6",note:"Mobile interface"},
+ {src:"/projects/nepshorts/IMG_1485.jpg",title:"NepShorts screen 7",note:"Mobile interface"}
 ];
 const skills = [
  {icon:Smartphone,title:"Mobile development",text:"Flutter, Dart, responsive interfaces and Android app delivery."},
