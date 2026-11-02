@@ -318,7 +318,14 @@ export default function Home() {
                 <span className="status">● FEATURED PROJECT</span>
               </div>
               <h3>
-                NepShorts <span>↗</span>
+                <a
+                  href="https://nepshorts.kishmat.com.np"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Visit the NepShorts website"
+                >
+                  NepShorts <span>↗</span>
+                </a>
               </h3>
               <p className="developerCredit">
                 Developed by Resham Parajuli · Flutter Developer
@@ -351,14 +358,24 @@ export default function Home() {
 
                 <span>Personal Finance</span>
               </div>
-              <a
-                className="button playStoreButton"
-                href="https://play.google.com/store/apps/details?id=com.nepshorts.nepshorts"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Get it on Google Play <ExternalLink size={15} />
-              </a>
+              <div className="projectActions">
+                <a
+                  className="button playStoreButton"
+                  href="https://play.google.com/store/apps/details?id=com.nepshorts.nepshorts"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Google Play <ExternalLink size={15} />
+                </a>
+                <a
+                  className="button websiteButton"
+                  href="https://nepshorts.kishmat.com.np"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit Website <ExternalLink size={15} />
+                </a>
+              </div>
             </div>
           </article>
           <div className="promoSection">
